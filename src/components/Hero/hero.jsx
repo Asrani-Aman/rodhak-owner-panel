@@ -51,8 +51,14 @@ const Hero = () => {
             <span className="right-2-text1"> Ensuring Safety</span>
           </div>
           <div className="right-3">
-            <button className="hero-btn hero-btn-1">Track My Bus </button>
-            <button className="hero-btn hero-btn-2">Buy Now</button>
+            <button className="hero-btn hero-btn-1">
+              <a href="https://www.dndrodhak.live/">Track My Bus </a>
+            </button>
+            <button className="hero-btn hero-btn-1">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSehlDgfrZ9R4vFCL7srkRkBD_L-i-pq7R9pSx3QdRDRXsmRxg/viewform">
+                Buy Now
+              </a>
+            </button>
           </div>
           <div className="right-4">
             <div>
