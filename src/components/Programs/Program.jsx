@@ -30,7 +30,7 @@ const Program = () => {
                 onClick={(e) => {
                   e.preventDefault();
                   console.log(program.link);
-                  navigate(program.link);
+
                   handleClick(program.link);
                 }}
               >

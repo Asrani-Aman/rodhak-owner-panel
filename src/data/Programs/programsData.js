@@ -18,7 +18,7 @@ export const programsData = [
     ),
     heading: "Owner",
     details: "Click here to manage your fleet",
-    link: "https://owner-dnd-rodhak.onrender.com/",
+    link: "https://rodhak11.onrender.com/api/v1/owner/register",
   },
   {
     image: (
