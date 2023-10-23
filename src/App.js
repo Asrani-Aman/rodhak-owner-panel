@@ -33,6 +33,7 @@ function App() {
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
+      console.log("test");
       setLoading(false);
     }, 2500);
   }, []);
