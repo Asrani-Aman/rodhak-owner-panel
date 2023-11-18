@@ -38,7 +38,7 @@ export const programsData = [
     ),
     heading: "Driver",
     details: "Click Here to manage your Trip",
-    link: "https://rodhak11.onrender.com/api/v1/driver/register",
+    link: "http://195.35.45.35:3000/api/v1/driver/register",
   },
   {
     image: (
