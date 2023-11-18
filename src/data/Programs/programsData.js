@@ -18,7 +18,7 @@ export const programsData = [
     ),
     heading: "Owner",
     details: "Click here to manage your fleet",
-    link: "https://rodhak11.onrender.com/api/v1/owner/register",
+    link: "http://195.35.45.35:3000/api/v1/owner/register",
   },
   {
     image: (

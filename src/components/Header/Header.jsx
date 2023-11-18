@@ -193,7 +193,7 @@ const Header = () => {
               </li>
               <li>
                 <a
-                  href="https://rodhak11.onrender.com/api/v1/driver/register"
+                  href="http://195.35.45.35:3000/api/v1/driver/register"
                   span="true"
                   smooth="true"
                   onClick={toggleClass}
