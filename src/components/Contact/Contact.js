@@ -84,6 +84,13 @@ const Contact = () => {
               required
             />
 
+            <input
+              type="number"
+              name="phoneNumber"
+              placeholder="Enter Your Contact Number"
+              autoComplete="off"
+              required
+            />
             <textarea
               name="Message"
               cols="30"
