@@ -64,7 +64,7 @@ const Hero = () => {
             </button>
             <button className="hero-btn hero-btn-1">
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSehlDgfrZ9R4vFCL7srkRkBD_L-i-pq7R9pSx3QdRDRXsmRxg/viewform">
-                Buy Now
+                Start For Free
               </a>
             </button>
           </div>
