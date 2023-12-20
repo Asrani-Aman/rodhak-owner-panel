@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+#about-section {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 5%; /* Adjust the padding for smaller screens */
+}
+
+.about-left img {
+  width: 100%; /* Make the image fill its container */
+  height: auto;
+  transform: translateY(50px);
+  animation: moveUpDown 2s infinite;
+}
+
+@keyframes moveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.about-right {
+  width: 100%; /* Make the right section take full width on smaller screens */
+  margin-top: 20px; /* Add some space between the sections on smaller screens */
+}
+
+.about-right h1 {
+  font-size: 28px; /* Adjust font size for smaller screens */
+  color: white;
+}
+.about-right h4 {
+  font-size: 14px; /* Adjust font size for smaller screens */
+  color: rgb(213, 139, 0);
+}
+
+.about-right p {
+  font-size: 14px; /* Adjust font size for smaller screens */
+  color: white;
+}
+
+.about-right .address ul li {
+  margin-bottom: 10px; /* Add more spacing between address items on smaller screens */
+  display: flex;
+}
+
+.address .saprater {
+  margin: 0 15px;
+  color: white; /* Reduce the margin between separator and address text on smaller screens */
+}
+
+@media screen and (min-width: 768px) {
+  /* Apply styles for screens wider than 768 pixels */
+  #about-section {
+    padding: 80px 5%;
+  }
+
+  .about-right {
+    width: 54%;
+  }
+
+  .about-right h1 {
+    font-size: 37px;
+  }
+
+  .about-right p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #about-section {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 5%; /* Adjust the padding for smaller screens */
+  }
+}

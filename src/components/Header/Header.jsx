@@ -66,7 +66,7 @@ const Header = () => {
         <ul className="header-menu">
           <li onClick={() => setMenuOpened(false)}>
             {" "}
-            <Link to="/details/1" span="true" smooth="true">
+            <Link to="/about" span="true" smooth="true">
               About us
             </Link>
           </li>

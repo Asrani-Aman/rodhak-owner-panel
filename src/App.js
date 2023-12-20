@@ -18,6 +18,7 @@ import About from "./components/Aboutus/About";
 import { useState, useEffect } from "react";
 import React from "react";
 import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
+import About2 from "./components/About2/About2.jsx";
 
 const override: CSSProperties = {
   display: "flex",
@@ -64,6 +65,16 @@ function App() {
                   <Reason />
                   <Plans />
                   <Join />
+                  <Footer />
+                </Fragment>
+              }
+            />
+            <Route
+              path="/about"
+              element={
+                <Fragment>
+                  <Header />
+                  <About2 />
                   <Footer />
                 </Fragment>
               }
