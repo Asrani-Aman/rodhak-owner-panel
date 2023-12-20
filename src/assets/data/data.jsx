@@ -120,14 +120,7 @@ export const blog = [
     cover: "../images/blogs/b7.jpg",
     date: "February 20, 2018",
   },
-  {
-    id: 7,
-    title: "TEACH YOUR DRAGON HOW TO FLY",
-    desc: "Magnis modipsae que lib voloratati andigen daepedor quiate ut reporemni aut labor. Laceaque quiae sitiorem ut restibusaes es tumquam core posae volor remped modis volor. Doloreiur qui commolu ptatemp dolupta orem retibusam emnis et consent accullignis lomnus. We don't want to overload you with hundreds of styles you don't want, or need. We give you a strong base to express your own creativity.",
-    category: "Fashion",
-    cover: "../images/blogs/b8.jpg",
-    date: "February 20, 2018",
-  },
+
   {
     id: 8,
     title:
@@ -136,22 +129,5 @@ export const blog = [
     category: "Safety",
     cover: "../images/blogs/b1.jpg",
     date: "APRIL 05, 2018",
-  },
-  {
-    id: 8,
-    title: "TEACH YOUR DRAGON HOW TO FLY",
-    desc: "Magnis modipsae que lib voloratati andigen daepedor quiate ut reporemni aut labor. Laceaque quiae sitiorem ut restibusaes es tumquam core posae volor remped modis volor. Doloreiur qui commolu ptatemp dolupta orem retibusam emnis et consent accullignis lomnus. We don't want to overload you with hundreds of styles you don't want, or need. We give you a strong base to express your own creativity.",
-    category: "Fashion",
-    cover: "../images/blogs/b9.jpg",
-    date: "February 20, 2018",
-  },
-
-  {
-    id: 9,
-    title: "TEACH YOUR DRAGON HOW TO FLY",
-    desc: "Magnis modipsae que lib voloratati andigen daepedor quiate ut reporemni aut labor. Laceaque quiae sitiorem ut restibusaes es tumquam core posae volor remped modis volor. Doloreiur qui commolu ptatemp dolupta orem retibusam emnis et consent accullignis lomnus. We don't want to overload you with hundreds of styles you don't want, or need. We give you a strong base to express your own creativity.",
-    category: "Fashion",
-    cover: "../images/blogs/b10.jpg",
-    date: "February 20, 2018",
   },
 ];
