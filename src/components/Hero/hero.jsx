@@ -31,7 +31,9 @@ const Hero = () => {
         <div className="left-h">
           <motion.div className="hero-left-img">
             <motion.img
-              initial={{ left: mobile ? "100px" : "350px" }}
+              initial={
+                ({ left: mobile ? "100px" : "380px" }, { bottom: "0px" })
+              }
               whileInView={{ left: "100px" }}
               transition={{ ...transition, type: "tween" }}
               className="hero-img"
@@ -40,15 +42,21 @@ const Hero = () => {
           </motion.div>
         </div>
         <div className="right-h">
-          <div className="right-1">
+          {/* <div className="right-1">
             <img className="hero-img-right" src={dnd}></img>
-          </div>
+          </div> */}
           <div className="right-2">
             <span className="stroke-text right-2-text1">
               {" "}
               Driving Convenience
             </span>
             <span className="right-2-text1"> Ensuring Safety</span>
+          </div>
+          <div className="right-2b">
+            <span className="right-des">
+              Enhance public transport convenience, optimize fleet management,
+              and promote road safety with driver-friendly products.
+            </span>
           </div>
           <div className="right-3">
             <button className="hero-btn hero-btn-1">
