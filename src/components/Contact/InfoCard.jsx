@@ -5,6 +5,10 @@ const CardContainer = styled.div`
   display: flex;
   width: 100vw;
   justify-content: space-around;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 const LeftCard = styled.div`
