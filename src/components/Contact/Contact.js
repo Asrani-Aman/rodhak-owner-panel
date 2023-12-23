@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import "./Contact.css";
 import Header from "../Header/Header";
+import Card from "./InfoCard";
 const Contact = () => {
   const Wrapper = styled.section`
     padding: 9rem 1rem 5rem 1rem;
@@ -55,6 +56,7 @@ const Contact = () => {
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
+      <Card />
       <div className="container">
         <div className="contact-form">
           <div className="contact-subheading">
