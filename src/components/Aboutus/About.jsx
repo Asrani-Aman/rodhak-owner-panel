@@ -8,7 +8,9 @@ const About = () => {
     <div className="aboutus">
       <img src={AboutImg} className="aboutusimg" alt="aboutus-img" />
       <img src={AboutImgMOBILE} className="aboutimgmobile" alt="aboutus-img" />
-      <button className="about-btn">TRACK MY BUS</button>
+      <a className="about-btn" href="https://www.dndrodhak.live/">
+        TRACK MY BUS
+      </a>
     </div>
   );
 };
