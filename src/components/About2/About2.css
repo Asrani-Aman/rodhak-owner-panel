@@ -15,7 +15,7 @@
 
   justify-content: space-between;
   align-items: center;
-  padding: 80px 5%; /* Adjust the padding for smaller screens */
+  padding: 85px 5%; /* Adjust the padding for smaller screens */
 }
 
 .about-left img {
@@ -41,16 +41,16 @@
 }
 
 .about-right h1 {
-  font-size: 28px; /* Adjust font size for smaller screens */
+  font-size: 32px; /* Adjust font size for smaller screens */
   color: white;
 }
 .about-right h4 {
-  font-size: 14px; /* Adjust font size for smaller screens */
+  font-size: 17px; /* Adjust font size for smaller screens */
   color: rgb(213, 139, 0);
 }
 
 .about-right p {
-  font-size: 14px; /* Adjust font size for smaller screens */
+  font-size: 1rem; /* Adjust font size for smaller screens */
   color: white;
 }
 
@@ -79,7 +79,7 @@
   }
 
   .about-right p {
-    font-size: 15px;
+    font-size: 1.1rem;
   }
 }
 

@@ -71,7 +71,7 @@ const Header = () => {
             </Link>
           </li>
           <li onClick={() => setMenuOpened(false)}>
-            <a href="#Plans" span="true" smooth="true">
+            <a href="https://www.dndrodhak.live/" span="true" smooth="true">
               Our Products and Services
             </a>
           </li>
