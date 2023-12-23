@@ -9,7 +9,7 @@ import Service3 from "../../assets/newDesign/Logistics, Trucks, Taxi Unions.png"
 
 const Serve = () => {
   return (
-    <>
+    <div id="customers">
       <div className="line"></div>
       <div className="programs-header" style={{ gap: "2rem" }}>
         <span className="stroke-text">WHO</span>
@@ -63,7 +63,7 @@ const Serve = () => {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import Logo2 from "../../assets/08.png";
 import { Link, NavLink } from "react-router-dom";
 import { FiAlignRight, FiXCircle, FiChevronDown } from "react-icons/fi";
-
+import Serve from "../whoWeServe/serve";
 import dnd from "../../assets/newDesign/Rodhak.png";
 
 import "./Header.css";
@@ -96,9 +96,9 @@ const Header = () => {
           {/* code for the dropdown menu */}
 
           <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows">
-            <Link to="#">
+            <a href="#customers" span="true" smooth="true">
               Who we serve? <FiChevronDown />
-            </Link>
+            </a>
             <ul className="dropdown-menu">
               <li>
                 <a

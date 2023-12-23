@@ -59,7 +59,7 @@ function App() {
                 <Fragment>
                   <Hero />
                   <About />
-                  <Program />
+                  {/* <Program /> */}
                   <Sponsors />
                   <Serve />
                   <Reason />
