@@ -60,9 +60,9 @@ const Contact = () => {
       <div className="container">
         <div className="contact-form">
           <div className="contact-subheading">
-            <span className="stroke-text">FEEL </span>
+            <span>FEEL </span>
             <span>FREE</span>
-            <span className="stroke-text">TO </span>
+            <span> TO </span>
             <span>MESSAGE</span>
           </div>
           <form

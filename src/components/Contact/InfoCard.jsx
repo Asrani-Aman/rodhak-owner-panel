@@ -103,8 +103,8 @@ const Card = () => {
             <span>
               <i className="fa-solid fa-map-pin mr-2"></i>{" "}
             </span>
-            A-143, 9th Floor, Sovereign Corporate Tower, Sector-
-            <span className="pl-5">136, Mandi, Himachal Pradesh</span>
+            114/1 A, PANJETHI MANDI
+            <span className="pl-5"> Himachal Pradesh</span>
           </div>
         </div>
       </RightCard>
