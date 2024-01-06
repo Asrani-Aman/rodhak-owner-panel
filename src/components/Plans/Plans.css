@@ -12,6 +12,8 @@
   align-items: center;
   justify-content: center;
   gap: 12rem;
+  flex-wrap: wrap; /* Allow flex items to wrap on smaller screens */
+  height: auto;
 }
 .plan {
   display: flex;
@@ -30,6 +32,9 @@
   fill: #f48915;
   width: 2rem;
   height: 2rem;
+}
+.plan:nth-child(2) > svg {
+  fill: white; /* Apply fill property to the second plan's SVG */
 }
 .plan > :nth-child(2) {
   font-size: 1rem;
@@ -53,16 +58,62 @@
 .feature > img {
   width: 1rem;
 }
-.plans > :nth-child(2) > svg {
-  fill: white;
+
+/* Ensure button is visible */
+.plans > .plan > button {
+  margin-top: auto; /* Push the button to the bottom */
 }
-.plans > :nth-child(2) > button {
-  fill: white;
-  color: #f48915;
+
+button a {
+  color: black;
 }
+
 @media screen and (max-width: 768px) {
   .plans {
     flex-direction: column;
     gap: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .plans-container {
+    margin-top: 0;
+  }
+
+  .plans {
+    gap: 1.5rem;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .plan {
+    width: 100%;
+    transform: scale(1);
+  }
+
+  .plan:nth-child(2) {
+    background: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+    transform: scale(1);
+  }
+
+  .plan > svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .plan > :nth-child(2) {
+    font-size: 1.2rem;
+  }
+
+  .plan > :nth-child(3) {
+    font-size: 2rem;
+  }
+
+  .features {
+    gap: 1rem;
+  }
+
+  .feature > img {
+    width: 1.2rem;
   }
 }

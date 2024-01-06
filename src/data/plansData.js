@@ -2,16 +2,72 @@ export const plansData = [
   {
     icon: (
       <svg
-        width="15"
-        height="13"
-        viewBox="0 0 15 13"
         xmlns="http://www.w3.org/2000/svg"
+        width="500"
+        height="500"
+        version="1.0"
+        id="bus"
       >
-        <path d="M9.01789 5.76762H8.26715V5.03093C8.26715 4.83555 8.18806 4.64816 8.04727 4.51001C7.90648 4.37185 7.71552 4.29424 7.51641 4.29424C7.3173 4.29424 7.12635 4.37185 6.98556 4.51001C6.84477 4.64816 6.76567 4.83555 6.76567 5.03093V5.76762H6.01493C5.81582 5.76762 5.62487 5.84524 5.48408 5.98339C5.34329 6.12155 5.26419 6.30893 5.26419 6.50431C5.26419 6.6997 5.34329 6.88708 5.48408 7.02523C5.62487 7.16339 5.81582 7.24101 6.01493 7.24101H6.76567V7.9777C6.76567 8.17308 6.84477 8.36046 6.98556 8.49862C7.12635 8.63678 7.3173 8.71439 7.51641 8.71439C7.71552 8.71439 7.90648 8.63678 8.04727 8.49862C8.18806 8.36046 8.26715 8.17308 8.26715 7.9777V7.24101H9.01789C9.217 7.24101 9.40796 7.16339 9.54875 7.02523C9.68954 6.88708 9.76864 6.6997 9.76864 6.50431C9.76864 6.30893 9.68954 6.12155 9.54875 5.98339C9.40796 5.84524 9.217 5.76762 9.01789 5.76762ZM13.6425 1.34746C12.8419 0.570035 11.7846 0.0989691 10.6613 0.0192671C9.53795 -0.0604348 8.42257 0.256476 7.51641 0.912815C6.56121 0.215636 5.37229 -0.100497 4.18907 0.0280747C3.00585 0.156647 1.91622 0.720375 1.1396 1.60574C0.362984 2.4911 -0.0429299 3.63233 0.00360011 4.79962C0.0501301 5.9669 0.545648 7.07353 1.39037 7.89666L5.89481 12.3537C6.31711 12.7675 6.88954 13 7.48638 13C8.08322 13 8.65566 12.7675 9.07795 12.3537L13.5824 7.89666C14.026 7.47133 14.3796 6.96416 14.6229 6.4043C14.8661 5.84443 14.9942 5.24291 14.9998 4.63432C15.0054 4.02572 14.8883 3.42203 14.6554 2.85796C14.4225 2.2939 14.0782 1.78056 13.6425 1.34746ZM12.5839 6.84319L8.07947 11.2633C8.00968 11.3324 7.92664 11.3872 7.83516 11.4246C7.74368 11.462 7.64555 11.4813 7.54644 11.4813C7.44734 11.4813 7.34921 11.462 7.25773 11.4246C7.16624 11.3872 7.08321 11.3324 7.01342 11.2633L2.50897 6.84319C1.92021 6.25262 1.59052 5.45929 1.59052 4.63311C1.59052 3.80694 1.92021 3.01361 2.50897 2.42304C3.10893 1.84178 3.91809 1.51585 4.76119 1.51585C5.6043 1.51585 6.41346 1.84178 7.01342 2.42304C7.08321 2.49208 7.16624 2.54689 7.25773 2.58429C7.34921 2.62169 7.44734 2.64095 7.54644 2.64095C7.64555 2.64095 7.74368 2.62169 7.83516 2.58429C7.92664 2.54689 8.00968 2.49208 8.07947 2.42304C8.67943 1.84178 9.48859 1.51585 10.3317 1.51585C11.1748 1.51585 11.984 1.84178 12.5839 2.42304C13.1772 3.01427 13.5097 3.81073 13.5097 4.64048C13.5097 5.47023 13.1772 6.2667 12.5839 6.85793V6.84319Z" />
+        <circle cx="55" cy="55" r="55" fill="#FABC3D"></circle>
+        <path
+          fill="#DF2C2C"
+          d="M79 31a8 8 0 0 0-8-8H39a8 8 0 0 0-8 8v50a2 2 0 0 0 2 2h44a2 2 0 0 0 2-2V31z"
+        ></path>
+        <path
+          fill="#FA5655"
+          d="M76.198 24.926A7.963 7.963 0 0 0 71 23H39a8 8 0 0 0-8 8v39.124l45.198-45.198z"
+        ></path>
+        <path
+          fill="#3E3E3F"
+          d="M31 83v2a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-2H31zM67 85a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-2H67v2z"
+        ></path>
+        <path
+          fill="#FA5655"
+          d="M81 74a4 4 0 0 0-4-4h-9l-2.447-2.894A2 2 0 0 0 63.764 66H46.236a2 2 0 0 0-1.789 1.106L42 70h-9a4 4 0 0 0-4 4v7a2 2 0 0 0 2 2h48a2 2 0 0 0 2-2v-7z"
+        ></path>
+        <path
+          fill="#BF0302"
+          d="M54 69h-7a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h7V69zM56 69h7a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-7V69z"
+        ></path>
+        <circle cx="37" cy="77" r="3" fill="#FBE158"></circle>
+        <circle cx="72" cy="77" r="3" fill="#FBE158"></circle>
+        <path fill="#E2E4E5" d="M31 47h48v2H31z"></path>
+        <path fill="#FFF" d="M54.124 47H31v2h21.124z"></path>
+        <path
+          fill="#40C9E7"
+          d="M75 49H57v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V49z"
+        ></path>
+        <path
+          fill="#6FDAF1"
+          d="M35 37a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2H37a2 2 0 0 0-2 2v8z"
+        ></path>
+        <path
+          fill="#40C9E7"
+          d="M57 37a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2H59a2 2 0 0 0-2 2v8z"
+        ></path>
+        <path
+          fill="#6FDAF1"
+          d="M73 27H59a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h3.124L73.9 27.223A1.977 1.977 0 0 0 73 27z"
+        ></path>
+        <path
+          fill="#FBEC9A"
+          d="M72 74.044a3 3 0 0 0-3 3c0 .751.286 1.43.742 1.956l4.214-4.214A2.976 2.976 0 0 0 72 74.044zM37 74a3 3 0 0 0-3 3c0 .751.286 1.43.742 1.956l4.214-4.214A2.976 2.976 0 0 0 37 74z"
+        ></path>
+        <path
+          fill="#40C9E7"
+          d="M35 49h18v8H35zM35 61a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-2H35v2z"
+        ></path>
+        <path
+          fill="#6FDAF1"
+          d="m44.124 57 8-8H35v8zM35 59v2a2 2 0 0 0 2 2h1.124l4-4H35z"
+        ></path>
       </svg>
     ),
     name: "HIMRAAHI",
+    description: "Track Public Transport ",
     price: "Free",
+    link: "Try Now",
+    link2: "https://www.dndrodhak.live/",
     features: [
       //   "2 hours of excercises",
       //   "Free consultaion to coaches",
@@ -52,7 +108,10 @@ export const plansData = [
       </svg>
     ),
     name: "RODHAK SUPER",
-    price: "XYZ $",
+    description: "Unlock advanced premium features",
+    link: "Let's Talk",
+    link2:
+      "https://docs.google.com/forms/d/e/1FAIpQLSehlDgfrZ9R4vFCL7srkRkBD_L-i-pq7R9pSx3QdRDRXsmRxg/viewform",
     features: [
       //   "2 hours of excercises",
       //   "Free consultaion to coaches",
@@ -101,4 +160,103 @@ export const plansData = [
   //       "Free Fitness Merchandises",
   //     ],
   //   },
+
+  {
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="500"
+        height="500"
+        version="1.0"
+        id="bus"
+      >
+        <circle cx="55" cy="55" r="55" fill="#FABC3D"></circle>
+        <path
+          fill="#DF2C2C"
+          d="M79 31a8 8 0 0 0-8-8H39a8 8 0 0 0-8 8v50a2 2 0 0 0 2 2h44a2 2 0 0 0 2-2V31z"
+        ></path>
+        <path
+          fill="#FA5655"
+          d="M76.198 24.926A7.963 7.963 0 0 0 71 23H39a8 8 0 0 0-8 8v39.124l45.198-45.198z"
+        ></path>
+        <path
+          fill="#3E3E3F"
+          d="M31 83v2a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-2H31zM67 85a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-2H67v2z"
+        ></path>
+        <path
+          fill="#FA5655"
+          d="M81 74a4 4 0 0 0-4-4h-9l-2.447-2.894A2 2 0 0 0 63.764 66H46.236a2 2 0 0 0-1.789 1.106L42 70h-9a4 4 0 0 0-4 4v7a2 2 0 0 0 2 2h48a2 2 0 0 0 2-2v-7z"
+        ></path>
+        <path
+          fill="#BF0302"
+          d="M54 69h-7a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h7V69zM56 69h7a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-7V69z"
+        ></path>
+        <circle cx="37" cy="77" r="3" fill="#FBE158"></circle>
+        <circle cx="72" cy="77" r="3" fill="#FBE158"></circle>
+        <path fill="#E2E4E5" d="M31 47h48v2H31z"></path>
+        <path fill="#FFF" d="M54.124 47H31v2h21.124z"></path>
+        <path
+          fill="#40C9E7"
+          d="M75 49H57v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V49z"
+        ></path>
+        <path
+          fill="#6FDAF1"
+          d="M35 37a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2H37a2 2 0 0 0-2 2v8z"
+        ></path>
+        <path
+          fill="#40C9E7"
+          d="M57 37a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2H59a2 2 0 0 0-2 2v8z"
+        ></path>
+        <path
+          fill="#6FDAF1"
+          d="M73 27H59a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h3.124L73.9 27.223A1.977 1.977 0 0 0 73 27z"
+        ></path>
+        <path
+          fill="#FBEC9A"
+          d="M72 74.044a3 3 0 0 0-3 3c0 .751.286 1.43.742 1.956l4.214-4.214A2.976 2.976 0 0 0 72 74.044zM37 74a3 3 0 0 0-3 3c0 .751.286 1.43.742 1.956l4.214-4.214A2.976 2.976 0 0 0 37 74z"
+        ></path>
+        <path
+          fill="#40C9E7"
+          d="M35 49h18v8H35zM35 61a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-2H35v2z"
+        ></path>
+        <path
+          fill="#6FDAF1"
+          d="m44.124 57 8-8H35v8zM35 59v2a2 2 0 0 0 2 2h1.124l4-4H35z"
+        ></path>
+      </svg>
+    ),
+    name: "RODHAK LITE",
+    description: "With basic safety and fleet management features ",
+
+    link: "Let's Talk",
+    link2:
+      "https://docs.google.com/forms/d/e/1FAIpQLSehlDgfrZ9R4vFCL7srkRkBD_L-i-pq7R9pSx3QdRDRXsmRxg/viewform",
+    features: [
+      //   "2 hours of excercises",
+      //   "Free consultaion to coaches",
+      //   "Access to The Community",
+      //   "Access to The Community",
+      //   "Access to The Community",
+      {
+        tick: true,
+        facility: "Live Vehicle Tracking",
+      },
+      {
+        tick: true,
+        facility: "Fleet Management",
+      },
+      {
+        tick: true,
+        facility: "Driver Assistance and Maintenance (Basic)",
+      },
+      {
+        tick: false,
+        facility: "Driver Profiling",
+      },
+      {
+        tick: false,
+        facility: "Drunk Driving Checks",
+      },
+    ],
+  },
 ];

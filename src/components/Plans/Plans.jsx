@@ -10,9 +10,7 @@ const Plans = () => {
       <div className="Plans" id="Plans">
         <div className="plans-container">
           <div className="programs-header" style={{ gap: "2rem" }}>
-            <span className="stroke-text">START</span>
-            <span>YOUR JOURNEY</span>
-            <span className="stroke-text">NOW WITH US</span>
+            <span>CHOOSE A PRODUCT THAT SUITS YOUR BUSINESS NEEDS </span>
           </div>
 
           {/* Plans Cards */}
@@ -20,7 +18,9 @@ const Plans = () => {
             {plansData.map((plan, i) => (
               <div className="plan" key={i}>
                 {plan.icon}
+                <span>{plan.description}</span>
                 <span>{plan.name}</span>
+                <hr />
                 <span>{plan.price}</span>
                 <div className="features">
                   {plan.features.map((feature, i) => (
@@ -34,10 +34,10 @@ const Plans = () => {
                     </div>
                   ))}
                 </div>
-                <div>
-                  <span>See More Benefits-></span>
-                </div>
-                <button className="btn">Join Now </button>
+
+                <button className="btn">
+                  <a href={plan.link2}>{plan.link} </a>
+                </button>
               </div>
             ))}
           </div>

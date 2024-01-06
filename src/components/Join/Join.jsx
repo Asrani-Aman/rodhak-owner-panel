@@ -28,12 +28,12 @@ const Join = () => {
       <div className="left-j">
         <hr />
         <div>
-          <span className="stroke-text">Contact </span>
-          <span> Us</span>
+          {/* <span className="stroke-text">Contact </span> */}
+          <span>Contact Us</span>
         </div>
         <div>
-          <span>For Any </span>
-          <span className="stroke-text"> Queries</span>
+          <span>For Any Queries</span>
+          {/* <span className="stroke-text">For Any Queries</span> */}
         </div>
       </div>
       <div className="right-j">

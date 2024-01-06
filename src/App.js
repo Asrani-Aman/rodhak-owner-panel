@@ -60,11 +60,13 @@ function App() {
                   <Hero />
                   <About />
                   {/* <Program /> */}
-                  <Sponsors />
+
                   <Serve />
-                  <Reason />
                   <Plans />
+                  <Reason />
+
                   <Join />
+                  <Sponsors />
                   <Footer />
                 </Fragment>
               }

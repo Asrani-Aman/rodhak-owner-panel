@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../../assets/Armaan.png";
 import Bars from "../../assets/bars.png";
 import { useState, useEffect } from "react";
-import Logo2 from "../../assets/08.png";
+import Logo2 from "../../assets/rd.png";
 import { Link, NavLink } from "react-router-dom";
 import { FiAlignRight, FiXCircle, FiChevronDown } from "react-icons/fi";
 import Serve from "../whoWeServe/serve";

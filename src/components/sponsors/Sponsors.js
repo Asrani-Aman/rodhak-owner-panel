@@ -7,43 +7,26 @@ import Sponsor3 from "../../assets/newDesign/startup/StartUp Himachal.png";
 
 const Sponsors = () => {
   return (
-    <>
+    <div className="sponsors-container">
       <div className="line"></div>
-      <div className="programs-header" style={{ gap: "2rem" }}>
-        <span className="stroke-text">OUR</span>
-        <span>Sponsors</span>
-        {/* <span className="stroke-text">NOW WITH US</span> */}
+      <div className="programs-header">
+        <span>OUR Sponsors</span>
       </div>
       <div className="sponsors">
-        <div className="service service-1">
-          <img src={Sponsor1} alt="service1"></img>
-          <h4>Schools,Universities and Offices</h4>
-
-          <p>
-            Enhance safety with our innovative road solutions tailored for
-            educational institutions and workplace environments.
-          </p>
+        <div className="sponsor">
+          <img src={Sponsor1} alt="Dept of Telecom"></img>
+          <h4>Dept of Telecom</h4>
         </div>
-        <div className="service service-2">
-          <img src={Sponsor2} alt="service1"></img>
-          <h4>Schools,Universities and Offices</h4>
-
-          <p>
-            Enhance safety with our innovative road solutions tailored for
-            educational institutions and workplace environments.
-          </p>
+        <div className="sponsor">
+          <img src={Sponsor2} alt="DST- Nidhi Prayas"></img>
+          <h4>DST- Nidhi Prayas</h4>
         </div>
-        <div className="service service-3">
-          <img src={Sponsor3} alt="service1"></img>
-          <h4>Schools,Universities and Offices</h4>
-
-          <p>
-            Enhance safety with our innovative road solutions tailored for
-            educational institutions and workplace environments.
-          </p>
+        <div className="sponsor">
+          <img src={Sponsor3} alt="Startup Himachal"></img>
+          <h4>Startup Himachal</h4>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

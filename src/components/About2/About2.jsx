@@ -42,13 +42,16 @@ export const About2 = () => {
             Team Of Founders And Professionals Work Tirelessly To Develop
             State-Of-The-Art Road Safety Solutions.
           </p>
+          <br />
           <div class="address">
             <ul>
               <li>
                 <span class="address-logo">
                   <i class="fas fa-paper-plane"></i>
                 </span>
-                <p>Founders</p>
+                <b>
+                  <p>Founders</p>{" "}
+                </b>
                 <span class="saprater">:</span>
                 <p> Pranay Sharma - Naveksha Sood</p>
               </li>
@@ -57,7 +60,9 @@ export const About2 = () => {
                 <span class="address-logo">
                   <i class="far fa-envelope"></i>
                 </span>
-                <p>Email ID</p>
+                <b>
+                  <p>Email ID</p>{" "}
+                </b>
                 <span class="saprater"> : </span>
                 <p>dnd2rodhak@gmail.com</p>
               </li>

@@ -12,51 +12,44 @@ const Serve = () => {
     <div id="customers">
       <div className="line"></div>
       <div className="programs-header" style={{ gap: "2rem" }}>
-        <span className="stroke-text">WHO</span>
-        <span>WE</span>
-        <span className="stroke-text">SERVE</span>
+        <span>WHO WE SERVE</span>
       </div>
       <div className="serve">
         <div className="service service-1">
           <img src={Service1} alt="service1"></img>
           <h4>Schools,Universities and Offices</h4>
-
           <p>
             Enhance safety with our innovative road solutions tailored for
             educational institutions and workplace environments.
           </p>
         </div>
         <div className="service service-2">
-          <img src={Service2} alt="service1"></img>
-          <h4>Schools,Universities and Offices</h4>
-
+          <img src={Service2} alt="service2"></img>
+          <h4>Volvo, State RTCs</h4>
           <p>
             Enhance safety with our innovative road solutions tailored for
             educational institutions and workplace environments.
           </p>
         </div>
         <div className="service service-3">
-          <img src={Service3} alt="service1"></img>
-          <h4>Schools,Universities and Offices</h4>
-
+          <img src={Service3} alt="service3"></img>
+          <h4>Logistics, Trucks, Taxi Unions</h4>
           <p>
             Enhance safety with our innovative road solutions tailored for
             educational institutions and workplace environments.
           </p>
         </div>
         <div className="service service-4">
-          <img src={Service4} alt="service1"></img>
-          <h4>Schools,Universities and Offices</h4>
-
+          <img src={Service4} alt="service4"></img>
+          <h4>Households</h4>
           <p>
             Enhance safety with our innovative road solutions tailored for
             educational institutions and workplace environments.
           </p>
         </div>
         <div className="service service-5">
-          <img src={Service5} alt="service1"></img>
-          <h4>Schools,Universities and Offices</h4>
-
+          <img src={Service5} alt="service5"></img>
+          <h4>Tours n Travels</h4>
           <p>
             Enhance safety with our innovative road solutions tailored for
             educational institutions and workplace environments.
