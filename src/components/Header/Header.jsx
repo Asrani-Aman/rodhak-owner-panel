@@ -4,7 +4,7 @@ import Bars from "../../assets/bars.png";
 import { useState, useEffect } from "react";
 import Logo2 from "../../assets/rd.png";
 import { Link, NavLink } from "react-router-dom";
-import { FiAlignRight, FiXCircle, FiChevronDown } from "react-icons/fi";
+import { FiAlignRight, FiXCircle, FiChevronDown, FiX } from "react-icons/fi";
 import Serve from "../whoWeServe/serve";
 import dnd from "../../assets/newDesign/Rodhak.png";
 
@@ -48,7 +48,6 @@ const Header = () => {
   } else {
     boxClassSubMenu.push("");
   }
-
   return (
     <div className="header" id="header">
       <Link to="/">
@@ -63,157 +62,167 @@ const Header = () => {
           ></img>
         </div>
       ) : (
-        <ul className="header-menu">
-          <li onClick={() => setMenuOpened(false)}>
-            {" "}
-            <Link to="/about" span="true" smooth="true">
-              About us
-            </Link>
-          </li>
-          <li onClick={() => setMenuOpened(false)}>
-            <a href="https://www.dndrodhak.live/" span="true" smooth="true">
-              Our Products and Services
-            </a>
-          </li>
-          <li onClick={() => setMenuOpened(false)}>
-            <NavLink to="/blogs" span="true" smooth="true">
-              Media
-            </NavLink>
-          </li>
-          <li onClick={() => setMenuOpened(false)}>
-            {" "}
-            <NavLink to="/contact" span="true" smooth="true">
-              Let's Talk
-            </NavLink>
-          </li>
+        <>
+          {Mobile && ( // Conditionally render the cross icon on mobile screens
+            <div onClick={() => setMenuOpened(false)}>
+              <FiX style={{ width: "1.5rem", height: "1.5rem" }} />
+            </div>
+          )}
+          <ul className="header-menu">
+            <li onClick={() => setMenuOpened(false)}>
+              {" "}
+              <Link to="/about" span="true" smooth="true">
+                About us
+              </Link>
+            </li>
+            <li onClick={() => setMenuOpened(false)}>
+              <a href="https://www.dndrodhak.live/" span="true" smooth="true">
+                Our Products and Services
+              </a>
+            </li>
+            <li onClick={() => setMenuOpened(false)}>
+              <NavLink to="/blogs" span="true" smooth="true">
+                Media
+              </NavLink>
+            </li>
+            <li onClick={() => setMenuOpened(false)}>
+              {" "}
+              <NavLink to="/contact" span="true" smooth="true">
+                Let's Talk
+              </NavLink>
+            </li>
 
-          {/* <li onClick={() => setMenuOpened(false)}>
+            {/* <li onClick={() => setMenuOpened(false)}>
             <a href="#testimonials" span="true" smooth="true">
               Who we serve?
             </a>
           </li> */}
 
-          {/* code for the dropdown menu */}
+            {/* code for the dropdown menu */}
 
-          <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows">
-            <a href="#customers" span="true" smooth="true">
-              Who we serve? <FiChevronDown />
-            </a>
-            <ul className="dropdown-menu">
-              <li>
-                <a
-                  href="#Plans"
-                  span="true"
-                  smooth="true"
-                  onClick={toggleClass}
-                  activeClassName="is-active"
-                  className="dropdownMenuItemClassName"
-                >
-                  Schools and University
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#Plans"
-                  span="true"
-                  smooth="true"
-                  onClick={toggleClass}
-                  activeClassName="is-active"
-                  className="dropdownMenuItemClassName"
-                >
-                  Offices
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#Plans"
-                  span="true"
-                  smooth="true"
-                  onClick={toggleClass}
-                  activeClassName="is-active"
-                  className="dropdownMenuItemClassName"
-                >
-                  Fleet Owners
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#Plans"
-                  span="true"
-                  smooth="true"
-                  onClick={toggleClass}
-                  activeClassName="is-active"
-                  className="dropdownMenuItemClassName"
-                >
-                  Private Owners
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#Plans"
-                  span="true"
-                  smooth="true"
-                  onClick={toggleClass}
-                  activeClassName="is-active"
-                  className="dropdownMenuItemClassName"
-                >
-                  Families
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#Plans"
-                  span="true"
-                  smooth="true"
-                  onClick={toggleClass}
-                  activeClassName="is-active"
-                  className="dropdownMenuItemClassName"
-                >
-                  Taxi Unions
-                </a>
-              </li>
-            </ul>
-          </li>
+            <li
+              onClick={toggleSubmenu}
+              className="menu-item sub__menus__arrows"
+            >
+              <a href="#customers" span="true" smooth="true">
+                Who we serve? <FiChevronDown />
+              </a>
+              <ul className="dropdown-menu">
+                <li>
+                  <a
+                    href="#Plans"
+                    span="true"
+                    smooth="true"
+                    onClick={toggleClass}
+                    activeClassName="is-active"
+                    className="dropdownMenuItemClassName"
+                  >
+                    Schools and University
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#Plans"
+                    span="true"
+                    smooth="true"
+                    onClick={toggleClass}
+                    activeClassName="is-active"
+                    className="dropdownMenuItemClassName"
+                  >
+                    Offices
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#Plans"
+                    span="true"
+                    smooth="true"
+                    onClick={toggleClass}
+                    activeClassName="is-active"
+                    className="dropdownMenuItemClassName"
+                  >
+                    Fleet Owners
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#Plans"
+                    span="true"
+                    smooth="true"
+                    onClick={toggleClass}
+                    activeClassName="is-active"
+                    className="dropdownMenuItemClassName"
+                  >
+                    Private Owners
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#Plans"
+                    span="true"
+                    smooth="true"
+                    onClick={toggleClass}
+                    activeClassName="is-active"
+                    className="dropdownMenuItemClassName"
+                  >
+                    Families
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#Plans"
+                    span="true"
+                    smooth="true"
+                    onClick={toggleClass}
+                    activeClassName="is-active"
+                    className="dropdownMenuItemClassName"
+                  >
+                    Taxi Unions
+                  </a>
+                </li>
+              </ul>
+            </li>
 
-          {/* ///// */}
-          <li onClick={toggleSubmenu2}>
-            Login/Register
-            <ul className="dropdown-menu-2">
-              <li>
-                <a
-                  href="https://owner-dnd-rodhak.onrender.com/"
-                  span="true"
-                  smooth="true"
-                  onClick={toggleClass}
-                  activeClassName="is-active"
-                  className="dropdownMenuItemClassName"
-                >
-                  Manage My Fleet
-                </a>
-              </li>
-              <li>
-                <a
-                  href="http://195.35.45.35:3000/api/v1/driver/register"
-                  span="true"
-                  smooth="true"
-                  onClick={toggleClass}
-                  activeClassName="is-active"
-                  className="dropdownMenuItemClassName"
-                >
-                  Manage My Trip
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li onClick={() => setMenuOpened(false)}>
-            <NavLink to="/contact" span="true" smooth="true">
-              Contact us
-            </NavLink>
-          </li>
-          <li onClick={() => setMenuOpened(false)}>
-            <img src={dnd} alt="dndlogo" className="dnd"></img>
-          </li>
-        </ul>
+            {/* ///// */}
+            <li onClick={toggleSubmenu2}>
+              Login/Register
+              <ul className="dropdown-menu-2">
+                <li>
+                  <a
+                    href="https://owner-dnd-rodhak.onrender.com/"
+                    span="true"
+                    smooth="true"
+                    onClick={toggleClass}
+                    activeClassName="is-active"
+                    className="dropdownMenuItemClassName"
+                  >
+                    Manage My Fleet
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="http://195.35.45.35:3000/api/v1/driver/register"
+                    span="true"
+                    smooth="true"
+                    onClick={toggleClass}
+                    activeClassName="is-active"
+                    className="dropdownMenuItemClassName"
+                  >
+                    Manage My Trip
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li onClick={() => setMenuOpened(false)}>
+              <NavLink to="/contact" span="true" smooth="true">
+                Contact us
+              </NavLink>
+            </li>
+            <li onClick={() => setMenuOpened(false)}>
+              <img src={dnd} alt="dndlogo" className="dnd"></img>
+            </li>
+          </ul>
+        </>
       )}
     </div>
   );

@@ -41,11 +41,11 @@
 }
 
 .right-2 {
-  font-size: 5rem;
+  font-size: 3.5rem;
   color: white;
 }
 .right-des {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: white;
 }
 
@@ -91,6 +91,22 @@
 
 .right-4 {
   display: flex;
+}
+.anim {
+  width: 100%; /* Make the image fill its container */
+  height: auto;
+  transform: translateY(50px);
+  animation: moveUpDown 2s infinite;
+}
+
+@keyframes moveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
 }
 
 /* Hide .left-h on screens with a maximum width of 768px */

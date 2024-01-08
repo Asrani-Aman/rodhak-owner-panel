@@ -61,7 +61,7 @@ const Hero = () => {
             </button>
           </div>
           <div className="right-4">
-            <div>
+            <div className="anim">
               <img src={Driving} alt="Driving Image" />
             </div>
             <div>
