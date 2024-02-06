@@ -65,8 +65,8 @@ export const plansData = [
     ),
     name: "HIMRAAHI",
     description: "Track Public Transport ",
-    price: "Free",
-    link: "Try Now",
+    // price: "Free",
+    link: "Try Now For Free",
     link2: "https://www.dndrodhak.live/",
     features: [
       //   "2 hours of excercises",
@@ -170,7 +170,8 @@ export const plansData = [
         version="1.0"
         id="bus"
       >
-        <circle cx="55" cy="55" r="55" fill="#FABC3D"></circle>
+        <circle cx="45" cy="45" r="50%" fill="#FABC3D"></circle>
+        <circle cx="15" cy="0" r="50%" fill="#FABC3D"></circle>
         <path
           fill="#DF2C2C"
           d="M79 31a8 8 0 0 0-8-8H39a8 8 0 0 0-8 8v50a2 2 0 0 0 2 2h44a2 2 0 0 0 2-2V31z"

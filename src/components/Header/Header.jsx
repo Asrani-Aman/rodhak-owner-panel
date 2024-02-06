@@ -76,7 +76,7 @@ const Header = () => {
               </Link>
             </li>
             <li onClick={() => setMenuOpened(false)}>
-              <a href="https://www.dndrodhak.live/" span="true" smooth="true">
+              <a href="#Plans" span="true" smooth="true">
                 Our Products and Services
               </a>
             </li>
@@ -110,7 +110,7 @@ const Header = () => {
               <ul className="dropdown-menu">
                 <li>
                   <a
-                    href="#Plans"
+                    href="#customers"
                     span="true"
                     smooth="true"
                     onClick={toggleClass}
@@ -122,7 +122,7 @@ const Header = () => {
                 </li>
                 <li>
                   <a
-                    href="#Plans"
+                    href="#customers"
                     span="true"
                     smooth="true"
                     onClick={toggleClass}
@@ -134,7 +134,7 @@ const Header = () => {
                 </li>
                 <li>
                   <a
-                    href="#Plans"
+                    href="#customers"
                     span="true"
                     smooth="true"
                     onClick={toggleClass}
@@ -146,7 +146,7 @@ const Header = () => {
                 </li>
                 <li>
                   <a
-                    href="#Plans"
+                    href="#customers"
                     span="true"
                     smooth="true"
                     onClick={toggleClass}
@@ -158,7 +158,7 @@ const Header = () => {
                 </li>
                 <li>
                   <a
-                    href="#Plans"
+                    href="#customers"
                     span="true"
                     smooth="true"
                     onClick={toggleClass}
@@ -170,7 +170,7 @@ const Header = () => {
                 </li>
                 <li>
                   <a
-                    href="#Plans"
+                    href="#customers"
                     span="true"
                     smooth="true"
                     onClick={toggleClass}

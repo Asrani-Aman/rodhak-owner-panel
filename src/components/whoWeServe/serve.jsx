@@ -17,42 +17,63 @@ const Serve = () => {
       <div className="serve">
         <div className="service service-1">
           <img src={Service1} alt="service1"></img>
-          <h4>Schools,Universities and Offices</h4>
+          <h4 style={{ marginBottom: "-10px" }}>
+            SCHOOLS, UNIVERSITIES AND OFFICES
+          </h4>
           <p>
             Enhance safety with our innovative road solutions tailored for
             educational institutions and workplace environments.
           </p>
         </div>
         <div className="service service-2">
-          <img src={Service2} alt="service2"></img>
-          <h4>Volvo, State RTCs</h4>
+          <img
+            src={Service2}
+            alt="service2"
+            style={{ marginBottom: "-50px" }}
+          ></img>
+          <h4 style={{ marginBottom: "-10px" }}>BUS OWNERS, STATE RTCs</h4>
           <p>
-            Enhance safety with our innovative road solutions tailored for
-            educational institutions and workplace environments.
+            Optimize fleet management and ensure passenger safety through our
+            advanced tracking and accident prevention technologies.
           </p>
         </div>
         <div className="service service-3">
-          <img src={Service3} alt="service3"></img>
-          <h4>Logistics, Trucks, Taxi Unions</h4>
+          <img
+            src={Service3}
+            alt="service3"
+            style={{ marginBottom: "-40px" }}
+          ></img>
+          <h4 style={{ marginBottom: "-10px" }}>
+            TRUCK, TAXI UNIONS, LOGISTICS OPERATORS{" "}
+          </h4>
           <p>
-            Enhance safety with our innovative road solutions tailored for
-            educational institutions and workplace environments.
+            Boost operational efficiency, minimize accidents, and improve driver
+            safety with our state-of-the-art solutions designed for the
+            transportation industry.
           </p>
         </div>
         <div className="service service-4">
-          <img src={Service4} alt="service4"></img>
-          <h4>Households</h4>
+          <img
+            src={Service4}
+            alt="service4"
+            style={{ marginBottom: "-30px" }}
+          ></img>
+          <h4 style={{ marginBottom: "-10px" }}>HOUSEHOLDS</h4>
           <p>
-            Enhance safety with our innovative road solutions tailored for
-            educational institutions and workplace environments.
+            Keep your family safe on the road with our range of products,
+            including tracking systems and advanced safety features.
           </p>
         </div>
         <div className="service service-5">
-          <img src={Service5} alt="service5"></img>
-          <h4>Tours n Travels</h4>
+          <img
+            src={Service5}
+            alt="service5"
+            style={{ marginBottom: "-40px" }}
+          ></img>
+          <h4 style={{ marginBottom: "-10px" }}>TOUR N TRAVEL OPERATORS</h4>
           <p>
-            Enhance safety with our innovative road solutions tailored for
-            educational institutions and workplace environments.
+            Enhance customer satisfaction and ensure a secure journey with our
+            road safety solutions tailored for the tourism and travel industry.
           </p>
         </div>
       </div>

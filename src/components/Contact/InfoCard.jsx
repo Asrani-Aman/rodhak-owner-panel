@@ -69,7 +69,7 @@ const Card = () => {
               <span>
                 <i className="fa fa-phone mr-2"></i>{" "}
               </span>
-              dnd2rodhak@gmail.com
+              dndrodhak@gmail.com
             </ListItem>
             {/* <ListItem>
               <span>
@@ -97,14 +97,13 @@ const Card = () => {
             <span>
               <i className="fa fa-envelope mr-2"></i>{" "}
             </span>
-            <span>dnd2rodhak@gmail.com</span>
+            <span>01905-357676</span>
           </div>
           <div className="mt-2 text-left">
             <span>
               <i className="fa-solid fa-map-pin mr-2"></i>{" "}
             </span>
-            114/1 A, PANJETHI MANDI
-            <span className="pl-5"> Himachal Pradesh</span>
+            MANDI ,<span className="pl-5"> Himachal Pradesh</span>
           </div>
         </div>
       </RightCard>
