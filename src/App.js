@@ -1,23 +1,24 @@
 import { Fragment } from "react";
 import "./App.css";
-import Footer from "./components/Footer/Footer";
-import Hero from "./components/Hero/hero";
-import Join from "./components/Join/Join";
-import Program from "./components/Programs/Program";
-import Reason from "./components/Reasons/Reason";
-import Testimonial from "./components/Testimonials/Testimonial";
+import Footer from "./components/Footer/Footer.jsx";
+import Hero from "./components/Hero/hero.jsx";
+import Join from "./components/Join/Join.jsx";
+import Program from "./components/Programs/Program.jsx";
+import Reason from "./components/Reasons/Reason.jsx";
+import Testimonial from "./components/Testimonials/Testimonial.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Contact from "./components/Contact/Contact";
-import Header from "./components/Header/Header";
-import { Home } from "./components/BlogSection/pages/home/Home";
+import Contact from "./components/Contact/Contact.js";
+import Header from "./components/Header/Header.jsx";
+import Header2 from "./components/Header2/Header.jsx";
+import { Home } from "./components/BlogSection/pages/home/Home.jsx";
 import { DetailsPages } from "./components/BlogSection/pages/details/DetailsPages.jsx";
-import Plans from "./components/Plans/Plans";
-import Serve from "./components/whoWeServe/serve";
-import Sponsors from "./components/sponsors/Sponsors";
-import About from "./components/Aboutus/About";
+import Plans from "./components/Plans/Plans.jsx";
+import Serve from "./components/whoWeServe/serve.jsx";
+import Sponsors from "./components/sponsors/Sponsors.js";
+import About from "./components/Aboutus/About.jsx";
 import { useState, useEffect } from "react";
 import React from "react";
-import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
+import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader.js";
 import About2 from "./components/About2/About2.jsx";
 
 const override: CSSProperties = {
@@ -75,7 +76,7 @@ function App() {
               path="/about"
               element={
                 <Fragment>
-                  <Header />
+                  <Header2 />
                   <About2 />
                   <Footer />
                 </Fragment>
@@ -85,7 +86,7 @@ function App() {
               path="/blogs"
               element={
                 <Fragment>
-                  <Header />
+                  <Header2 />
                   <Home />
                   <Footer />
                   {/* <Hero />
@@ -101,7 +102,7 @@ function App() {
               path="/details/:id"
               element={
                 <Fragment>
-                  <Header />
+                  <Header2 />
                   <DetailsPages />
                   <Footer />
                 </Fragment>
@@ -111,7 +112,7 @@ function App() {
               path="/contact"
               element={
                 <Fragment>
-                  <Header className="contact-header" />
+                  <Header2 className="contact-header" />
                   <Contact />
                   <Footer />
                 </Fragment>

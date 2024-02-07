@@ -71,15 +71,21 @@ const Header = () => {
           <ul className="header-menu">
             <li onClick={() => setMenuOpened(false)}>
               {" "}
+              <Link to="/" span="true" smooth="true">
+                Home
+              </Link>
+            </li>
+            <li onClick={() => setMenuOpened(false)}>
+              {" "}
               <Link to="/about" span="true" smooth="true">
                 About us
               </Link>
             </li>
-            <li onClick={() => setMenuOpened(false)}>
+            {/* <li onClick={() => setMenuOpened(false)}>
               <a href="#Plans" span="true" smooth="true">
                 Our Products and Services
               </a>
-            </li>
+            </li> */}
             <li onClick={() => setMenuOpened(false)}>
               <NavLink to="/blogs" span="true" smooth="true">
                 Media
@@ -100,16 +106,14 @@ const Header = () => {
 
             {/* code for the dropdown menu */}
 
-            <li
-              // onClick={toggleSubmenu}
-              onClick={() => setMenuOpened(false)}
+            {/* <li
+              onClick={toggleSubmenu}
               className="menu-item sub__menus__arrows"
             >
               <a href="#customers" span="true" smooth="true">
-                {/* Who we serve? <FiChevronDown /> */}
-                Who we serve ?
+                Who we serve? <FiChevronDown />
               </a>
-              {/* <ul className="dropdown-menu">
+              <ul className="dropdown-menu">
                 <li>
                   <a
                     href="#customers"
@@ -182,25 +186,13 @@ const Header = () => {
                     Taxi Unions
                   </a>
                 </li>
-              </ul> */}
-            </li>
+              </ul>
+            </li> */}
 
             {/* ///// */}
-            <li onClick={toggleSubmenu2}>
+            {/* <li onClick={toggleSubmenu2}>
               Login/Register
               <ul className="dropdown-menu-2">
-                <li>
-                  <a
-                    href="https://www.himraahi.in/api/v1/owner/register"
-                    span="true"
-                    smooth="true"
-                    onClick={toggleClass}
-                    activeClassName="is-active"
-                    className="dropdownMenuItemClassName"
-                  >
-                    Register Your Fleet
-                  </a>
-                </li>
                 <li>
                   <a
                     href="https://owner-dnd-rodhak.onrender.com/"
@@ -210,24 +202,23 @@ const Header = () => {
                     activeClassName="is-active"
                     className="dropdownMenuItemClassName"
                   >
-                    Owner Login
+                    Manage My Fleet
                   </a>
                 </li>
-
                 <li>
                   <a
-                    href=" https://www.himraahi.in/api/v1/driver/login"
+                    href="http://195.35.45.35:3000/api/v1/driver/register"
                     span="true"
                     smooth="true"
                     onClick={toggleClass}
                     activeClassName="is-active"
                     className="dropdownMenuItemClassName"
                   >
-                    Driver Login
+                    Manage My Trip
                   </a>
                 </li>
               </ul>
-            </li>
+            </li> */}
             <li onClick={() => setMenuOpened(false)}>
               <NavLink to="/contact" span="true" smooth="true">
                 Contact us
