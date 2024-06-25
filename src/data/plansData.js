@@ -67,7 +67,7 @@ export const plansData = [
     description: "Track Public Transport ",
     // price: "Free",
     link: "Try Now For Free",
-    link2: "https://www.dndrodhak.live/",
+    link2: "https://www.live.himraahi.in/",
     features: [
       //   "2 hours of excercises",
       //   "Free consultaion to coaches",
